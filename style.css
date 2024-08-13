@@ -15,6 +15,7 @@
 }
 
 body {
+    font-size: 16px;
     display:flex;
     height: 100%;
     background-color: #F3E6D8;
@@ -28,9 +29,9 @@ body {
     justify-content: space-around;
     gap:10px;
     min-height: 100vh;
-    max-width: 40vw;
+    max-width: 55vw;
     background-color: #FFFFFF;
-    padding: 30px;
+    padding: 50px;
     margin: 50px;
     border-radius: 20px;
 }
@@ -43,5 +44,38 @@ body {
 .container__title {
     font-family: young-serif;
     font-weight: 400;
-    color: #854632
+    margin: 15px 0;
+    color: #302D2C;
+    font-size: 40px;
+}
+
+.container__description {
+    font-family: outfit;
+    font-weight: 500;
+    color: #5F574E;
+}
+
+.container__highlight {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    margin: 10px 0;
+    background-color: #FFF5FA;
+    border-radius: 10px;
+    line-height: 25px;
+}
+
+.container__subtitle {
+    font-size: 18px;
+    color: #7B284F;
+    font-weight: 700;
+}
+
+.highlight__list {
+    margin-left: 20px;
+}
+
+ul,li {
+    padding: 5px;
 }
