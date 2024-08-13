@@ -51,7 +51,7 @@ body {
 
 .container__description {
     font-family: outfit;
-    font-weight: 500;
+    font-weight: 400;
     color: #5F574E;
 }
 
@@ -67,6 +67,13 @@ body {
 }
 
 .container__subtitle {
+    font-size: 25px;
+    color: #854632;
+    font-weight: 500;
+    font-family: young-serif;
+}
+
+.highlight__title {
     font-size: 18px;
     color: #7B284F;
     font-weight: 700;
@@ -74,8 +81,14 @@ body {
 
 .highlight__list {
     margin-left: 20px;
+    color: #5F574E;
 }
 
 ul,li {
-    padding: 5px;
+    padding: 5px 0;
+    padding-left: 10px;
+}
+
+.bold {
+    font-weight: 700;
 }
