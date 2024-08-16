@@ -99,6 +99,27 @@ body {
     text-align: right;
 }
 
+ol li {
+    font-family: outfit;
+}
+
+ul li {
+    font-family: outifit;
+}
+
+ul, ol {
+    display:block;
+    padding-inline-start: 1rem;
+}
+
+li {
+    padding-left: 10px;
+}
+
+ul ol li::marker{
+    color: #854632
+}
+
 ul,li {
     padding: 5px 0;
     padding-left: 10px;
