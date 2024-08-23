@@ -77,54 +77,10 @@ body {
     font-size: 18px;
     color: #7B284F;
     font-weight: 700;
+    font-family: outfit;
 }
 
 .highlight__list {
     margin-left: 20px;
     color: #5F574E;
-}
-
-.nutrition__list {
-    width: 100%;
-}
-
-.list__item {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    padding: 10px 10px;
-    padding-right: 100px;
-    gap: 10px;
-    text-align: right;
-}
-
-ol li {
-    font-family: outfit;
-}
-
-ul li {
-    font-family: outifit;
-}
-
-ul, ol {
-    display:block;
-    padding-inline-start: 1rem;
-}
-
-li {
-    padding-left: 10px;
-}
-
-ul ol li::marker{
-    color: #854632
-}
-
-ul,li {
-    padding: 5px 0;
-    padding-left: 10px;
-}
-
-.bold {
-    font-weight: 700;
 }
