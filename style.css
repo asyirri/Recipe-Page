@@ -26,7 +26,7 @@ body {
 .container {
     display: grid;
     justify-content: center;
-    align-items: stretch;
+    /* align-items: stretch; */
     background-color: #FFFFFF;
     max-width: 800px;
     min-height: 100vh;
@@ -35,11 +35,79 @@ body {
     margin:100px;
 }
 .container__image,
-.container__highlight {
-    margin-bottom: 20px;
+.container__highlight,
+.container__description,
+.container__ingredient {
+    margin-bottom: 30px;
 }
 
 .container__image {
     width: 100%;
     border-radius: 20px;
+}
+
+.container__title,
+.container__subtitle {
+    font-family: young-serif;
+}
+
+.container__title {
+    font-size: 2.5em;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.container__description {
+    font-family: outfit;
+}
+
+.container__highlight {
+    padding: 25px 30px;
+    background-color: #FFF5FA;
+    border-radius: 5px;
+}
+
+.highlight__list {
+    padding-left: 20px;
+    color: #5F574E;
+    line-height: 1.7em;
+    text-align: left;
+}
+
+.list-item {
+    padding-left: 20px;
+    font-family: outfit;
+    color: #5F574E;
+    font-weight: 400;
+}
+
+.highlight__title {
+    font-family: outfit;
+    font-weight: 600;
+    font-size: 1.3em;
+    color: #7B284F;
+    margin-bottom: 10px;
+}
+
+.container__subtitle {
+    font-weight: 500;
+    color: #854632;
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+.container__ingredient {
+    line-height: 2em;
+}
+
+.container__list {
+    padding-left: 25px;
+}
+
+.list-item::marker{
+    color:#854632;
+}
+
+hr {
+    color:#fc5c00;
 }
