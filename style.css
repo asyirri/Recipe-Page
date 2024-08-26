@@ -30,8 +30,13 @@ body {
     background-color: #FFFFFF;
     max-width: 800px;
     min-height: 100vh;
-    padding: 30px;
+    padding: 40px;
     border-radius: 20px;
+    margin:100px;
+}
+.container__image,
+.container__highlight {
+    margin-bottom: 20px;
 }
 
 .container__image {
