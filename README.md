@@ -18,6 +18,6 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ## Author
 
-- Website - **Achmad Anwar Asyirri**
+- **Achmad Anwar Asyirri**
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
 
