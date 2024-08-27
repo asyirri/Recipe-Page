@@ -6,8 +6,8 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- [Solution URL](https://https://github.com/asyirri/fementor-ch4-recipe_page)
-- [Live Site URL](https://https://asyirri.github.io/fementor-ch4-recipe_page/)
+- [Solution URL](https://github.com/asyirri/fementor-ch4-recipe_page)
+- [Live Site URL](https://asyirri.github.io/fementor-ch4-recipe_page/)
 
 ## Built with
 
