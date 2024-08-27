@@ -115,12 +115,15 @@ body {
     font-weight: 700;
 }
 
+.container__nutrition {
+    width: 100%;
+}
+
 .nutrition__description th {
     font-family: outfit;
     font-weight: 400;
     text-align: left;
-    width: 50%;
-    margin-bottom: 20px;
+    padding-bottom: 20px;
 }
 
 .nutrition__list {
@@ -133,6 +136,7 @@ body {
 .nutrition__list td {
     padding: 10px 30px;
     border-bottom: solid #E4DED8 1px;
+    width: 50%;
 }
 
 .table-bold {
