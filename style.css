@@ -37,7 +37,8 @@ body {
 .container__image,
 .container__highlight,
 .container__description,
-.container__ingredient {
+.container__ingredient,
+.container__instructions {
     margin-bottom: 30px;
 }
 
@@ -70,7 +71,7 @@ body {
 .highlight__list {
     padding-left: 20px;
     color: #5F574E;
-    line-height: 1.7em;
+    line-height: 2em;
     text-align: left;
 }
 
@@ -94,10 +95,14 @@ body {
     color: #854632;
     font-size: 1.8em;
     margin-bottom: 15px;
+    text-align: left;
 }
 
-.container__ingredient {
-    line-height: 2em;
+.container__ingredient,
+.container__instructions {
+    line-height: 1.7em;
+    border-bottom: solid #E4DED8 1px;
+    padding-bottom: 30px;
 }
 
 .container__list {
@@ -106,8 +111,31 @@ body {
 
 .list-item::marker{
     color:#854632;
+    line-height: 2.75em;
+    font-weight: 700;
 }
 
-hr {
-    color:#fc5c00;
+.nutrition__description th {
+    font-family: outfit;
+    font-weight: 400;
+    text-align: left;
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.nutrition__list {
+    padding: 10px;
+    text-align: left;
+    width: 100%;
+    font-family: outfit;
+}
+
+.nutrition__list td {
+    padding: 10px 30px;
+    border-bottom: solid #E4DED8 1px;
+}
+
+.table-bold {
+    font-weight: 700;
+    color: #854632;
 }
