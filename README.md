@@ -6,7 +6,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- [Solution URL]((https://github.com/asyirri/Recipe-Page/))
+- [Solution URL](https://github.com/asyirri/Recipe-Page/)
 - [Live Site URL](https://asyirri.github.io/Recipe-Page/)
 
 ## Built with
